@@ -1,0 +1,192 @@
+/*Stylesheet CaroKinesio */
+@font-face {
+	font-family : 'Courgette';
+	src : url("police/Courgette-Regular.ttf")
+}
+body{
+	font-family : "Open Sans" ,'Arial', sans-serif;
+}
+a:hover 
+{
+	font-weight : bold ;
+	color : red;
+}
+h1 , h2
+{
+	font-family : 'Courgette';
+}
+h1
+{
+	color : #A82F2F;
+	font-size : 3.4em;
+	letter-spacing : 0.1em;
+	
+}
+h2
+{
+	font-size : 1.4em;
+	color : black;
+}
+
+a
+{
+	outline: none;
+	text-decoration: none;
+}
+
+
+
+#bloc-page
+{
+	display : flex;
+	flex-wrap : wrap; 	
+	flex-direction : collum;
+	margin-left : 280px;
+	/*border : 3px black solid;*/
+	
+	
+}
+#navimg
+{
+	width : 229px;
+	height : 111px;
+}
+nav 
+{
+	width : 230px;
+	background-color : rgb(232,199,199);
+	display : inline-block;
+	height : 100%;
+	position : fixed;
+	left : 0px;
+	top : 0px;
+	padding-left : 25px;
+	padding-right : 25px;
+	padding-top : 35px;
+	padding-bottom : 50px;
+	z-index : 1;	
+	
+}
+span
+{
+	font-size : 0.95em;
+	display : inline-block;
+	padding-top : 20px;
+}
+ul
+{
+	list-style : none ;
+	margin : 0;
+	padding : 0;
+	padding-top : 20px;
+	
+}
+li
+{
+	display : flex;
+	flex-direction : collum;
+	padding-top : 1.2em;
+	padding-bottom : 1em;
+	border-bottom : 1px rgb(208,179,179) groove;
+	
+}
+li a 
+{
+	
+	color : black;
+}
+header 
+{
+	display : inline-block;
+	width : 100%;
+	text-align : center;
+	/*border : 2px red solid;*/
+}
+#boites
+{
+	width : 100%;
+	display : flex;
+	flex-wrap : wrap;
+	flex-direction : row ;
+	overflow : hidden;
+	align-items : center ;
+	/*border : 2px green solid;*/
+}
+.article
+{
+	
+	/*border : 1px black solid;*/
+	height : 30em;
+	width : 40%;
+	margin : 4%;
+	justify-content : center;
+	text-align : center;
+	
+	
+}
+
+.liens-article
+{
+	color : #A82F2F;
+	outline : none;
+}
+.img-article
+{
+	width : 100%;
+	
+}
+.article p
+{
+	color : #666;
+	font-size : 1em;
+	margin-bottom : 1.3em;
+}
+.article h2:hover
+{
+	color : red;
+}
+
+	
+header p
+{
+	color : #666;
+	font-size : 1em;
+	margin-bottom : 1.3em;
+}
+
+
+footer
+{
+	display : flex;
+	flex-direction : column;
+	width : 100%;
+	text-align : center;
+}
+footer a
+{
+	text-align : center ;
+	color : red ;
+	font-size : 1.5em;
+	font-weight : bold;
+	font-style : italic;
+	border : 4px red outset;
+	
+}
+footer a:hover
+{
+	color : black;
+	background-color : red
+}
+
+footer img
+{
+	width : 200px;
+	margin : 2em;
+	margin-left : 40%;
+	text-align: center;
+}
+footer p 
+{
+	color : #666;
+	font-size : 0.7em;
+}
